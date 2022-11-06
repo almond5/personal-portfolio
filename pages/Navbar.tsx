@@ -1,37 +1,67 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState, useEffect, useCallback } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+  const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  const handleScroll = useCallback(() => {
+    window.scrollY - scrollY > 0 ? setShowNav(false) : setShowNav(true);
+    setScrollY(window.scrollY);
+  }, [scrollY]);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [handleScroll]);
+
   return (
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <a>
-          <Image
-            src='/../styles/logo.png'
-            alt=''
-            height='125'
-            width='125'
-          />
-        </a>
+    <div
+      className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
+      ${
+        showNav && scrollY != 0
+          ? 'h-16 shadow-md backdrop-blur'
+          : `${
+              scrollY == 0
+                ? 'h-24 shadow-none backdrop-blur-0'
+                : 'h-0 shadow-none backdrop-blur'
+            }`
+      }`}
+    >
+      <div className='grid place-items-end w-full h-12 px-3 2xl:px-16'>
         <div>
-          <ul className='hidden md:flex'>
-            <li className='ml-10 font-bold text-lg hover:border-b'>
-              <Link href='/'>Home</Link>
-            </li>
-            <li className='ml-10 font-bold text-lg hover:border-b'>
-              <Link href='/#about'>About</Link>
-            </li>
-            <li className='ml-10 font-bold text-lg hover:border-b'>
-              <Link href='/#projects'>Projects</Link>
-            </li>
-            <li className='ml-10 font-bold text-lg hover:border-b'>
-              <Link href='/resume'>Resume</Link>
-            </li>
-            <li className='ml-10 font-bold text-lg hover:border-b'>
-              <Link href='/#contact'>Contact</Link>
-            </li>
-          </ul>
+        <ul className='hidden items-center md:flex'>
+          <li className='px-4 font-bold text-xl'>
+            <a href='#home'>Home</a>
+          </li>
+          <li className='px-4 font-bold text-xl'>
+            <a href='#about'>About</a>
+          </li>
+          <li className='px-4 font-bold text-xl'>
+            <a href='#projects'>Projects</a>
+          </li>
+          <li className='px-4 font-bold text-xl'>
+            <a href='#contact'>Contact</a>
+          </li>
+          <li className='px-4 font-bold text-xl'>
+            <a href='#contact'>Resume</a>
+          </li>
+        </ul>
+          {/* Hamburger Icon */}
+          <div
+            onClick={handleNav}
+            className='md:hidden'
+          >
+            <AiOutlineMenu size={25} />
+          </div>
         </div>
       </div>
     </div>
