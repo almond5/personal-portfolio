@@ -28,7 +28,7 @@ const Navbar = () => {
       className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
       ${
         showNav && scrollY != 0
-          ? 'h-16 shadow-md backdrop-blur'
+          ? 'h-28 shadow-md backdrop-blur'
           : `${
               scrollY == 0
                 ? 'h-24 shadow-none backdrop-blur-0'
@@ -36,7 +36,7 @@ const Navbar = () => {
             }`
       }`}
     >
-      <div className='grid place-items-end w-full h-12 px-3 2xl:px-16'>
+      <div className='grid place-items-end w-full h-8 px-3 2xl:px-16'>
         <div>
         <ul className='hidden items-center md:flex'>
           <li className='px-4 font-bold text-xl'>
