@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='flex-col text-center'>
       <div className='mx-auto max-w-lg'>
-        <p className='mb-3 text-3xl text-left font-bold'>About Me</p>
+        <p className='mb-3 text-3xl text-center font-bold'>About Me</p>
         <p className='mb-4 text-xl text-left'>
           Greetings! Here is a litle bit about my programming journey. My
           programming journey started back in middle school where Minecraft was

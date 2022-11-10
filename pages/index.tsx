@@ -13,7 +13,6 @@ const Home: NextPage = () => {
         <title>Adrian Hossen</title>
         <meta name='title' content='Adrian Hossen' />
         <meta name='description' content='UCF CS Student' />
-
         <meta name='theme-color' content='#111827'/>
         <meta property='og:type' content='website'/>
         <meta property='og:url' content='https://adrianhossen.dev'/>
