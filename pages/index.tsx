@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react'
 import About from './About';
-import Footer from './Footer';
+import Footer from '../src/components/Footer';
 import Hero from './Hero';
 import Projects from './Projects';
 

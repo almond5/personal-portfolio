@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState, useEffect, useCallback } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 
@@ -24,43 +25,45 @@ const Navbar = () => {
   }, [handleScroll]);
 
   return (
-    <div
-      className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
-      ${
-        showNav && scrollY != 0
-          ? 'h-28 shadow-md backdrop-blur'
-          : `${
-              scrollY == 0
-                ? 'h-24 shadow-none backdrop-blur-0'
-                : 'h-0 shadow-none backdrop-blur'
-            }`
-      }`}
-    >
-      <div className='grid place-items-end w-full h-8 px-3 2xl:px-16'>
-        <div>
-        <ul className='hidden items-center md:flex'>
-          <li className='px-4 font-bold text-xl'>
-            <a href='#home'>Home</a>
-          </li>
-          <li className='px-4 font-bold text-xl'>
-            <a href='#about'>About</a>
-          </li>
-          <li className='px-4 font-bold text-xl'>
-            <a href='#projects'>Projects</a>
-          </li>
-          <li className='px-4 font-bold text-xl'>
-            <a href='#contact'>Contact</a>
-          </li>
-          <li className='px-4 font-bold text-xl'>
-            <a href='#contact'>Resume</a>
-          </li>
-        </ul>
-          {/* Hamburger Icon */}
-          <div
-            onClick={handleNav}
-            className='md:hidden'
-          >
-            <AiOutlineMenu size={25} />
+    <div className='max-w-screen-lg'>
+      <div
+        className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
+        ${
+          showNav && scrollY != 0
+            ? 'h-28 shadow-md backdrop-blur'
+            : `${
+                scrollY == 0
+                  ? 'h-24 shadow-none backdrop-blur-0'
+                  : 'h-0 shadow-none backdrop-blur'
+              }`
+        }`}
+      >
+        <div className='grid place-items-end w-full h-8 px-3 2xl:px-16'>
+          <div>
+          <ul className='hidden items-center md:flex'>
+            <li className='px-4 font-bold text-xl'>
+              <a href='#home'>Home</a>
+            </li>
+            <li className='px-4 font-bold text-xl'>
+              <a href='#about'>About</a>
+            </li>
+            <li className='px-4 font-bold text-xl'>
+              <a href='#projects'>Projects</a>
+            </li>
+            <li className='px-4 font-bold text-xl'>
+              <Link href='mailto:adrianhossen5@gmail.com'>Contact</Link>
+            </li>
+            <li className='px-4 font-bold text-xl'>
+              <Link href='resume.pdf'>Resume</Link>
+            </li>
+          </ul>
+            {/* Hamburger Icon */}
+            <div
+              onClick={handleNav}
+              className='md:hidden'
+            >
+              <AiOutlineMenu size={25} />
+            </div>
           </div>
         </div>
       </div>
