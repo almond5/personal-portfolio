@@ -17,13 +17,13 @@ const About = () => {
           I recently completed an internship with Microsoft as an Explore intern
           (PM/SWE) where I developed many skills that I plan to build upon
           within the upcoming years. At this 12 week internship, I was tasked on
-          creating a User Experience for Bing under Content Services. I'm also
+          creating a User Experience for Bing under Content Services. I`&apos;`m also
           an incoming Software Engineering intern for Microsoft where I will
           continue to work under Content Services delivering user experiences
           for Bing.
         </p>
         <p className='mb-4 text-xl text-left'>
-          Here is a list of the technologies that I'm familiar with!
+          Here is a list of the technologies that I`&apos;`m familiar with!
         </p>
         <ul className='grid grid-cols-2 whitespace-nowrap text-xl text-left'>
           <li className='list-inside list-disc'>Azure DevOps</li>
