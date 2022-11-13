@@ -5,7 +5,6 @@ import { AiOutlineMenu } from 'react-icons/ai';
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const [nav, setNav] = useState(false);
-  const [shadow, setShadow] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
   const handleNav = () => {
@@ -38,7 +37,7 @@ const Navbar = () => {
               }`
         }`}
       >
-        <div className='grid place-items-end w-full h-8 px-3 2xl:px-16'>
+        <div className='grid place-items-end w-full h-8 2xl:px-5'>
           <div>
           <ul className='hidden items-center md:flex'>
             <li className='px-4 font-bold text-xl'>

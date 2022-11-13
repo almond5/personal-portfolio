@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div id='home' className='py-80 flex-col justify-center text-center'>
       <div className='mb-3 text-2xl leading-2;'>Hello, my name is</div>
-      <div className='mb-5 text-5xl font-semibold md:text-5xl lg:text-6xl xl:text-7xl'>
+      <div className='mb-5 text-3xl font-semibold md:text-5xl lg:text-6xl xl:text-6xl'>
         Adrian Hossen.
       </div>
       <div className='mx-auto max-w-md text-xl text-left'>
