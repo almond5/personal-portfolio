@@ -4,10 +4,12 @@ import React from 'react';
 const Projects = () => {
   return (
     <div id='projects' className='flex-col text-center py-60'>
-      <div className='mx-auto max-w-lg'>
-        <p className='mb-8 text-3xl text-center font-bold'>Projects</p>
+      <div className='mx-auto max-w-sm text-xl text-left xs:max-w-sm sm:max-w-sm 
+        md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-lg'>
+        <p className='mb-8 text-3xl text-left font-bold'>Projects</p>
       </div>
-      <ul className='grid px-52 gap-6 md:grid-cols-2 lg:grid-cols-2'>
+      <ul className='mx-auto max-w-sm xs:max-w-sm sm:max-w-md 
+        md:max-w-md lg:max-w-xl xl:max-w-xl 2xl:max-w-xl grid gap-6 md:grid-cols-2 lg:grid-cols-2'>
         <li
           className='outline bg-stone-100 
             p-7 transition-transform hover:-translate-y-2 rounded-xl'
@@ -20,11 +22,9 @@ const Projects = () => {
                 developing a birthday feature. Connected the bot to a
                 planetscale database for user profile storage (birthdays).
               </p>
-              <ul className='flex flex-wrap gap-x-5 gap-y-1.5 text-md text-left'>
-                <li className='list-inside'>JavaScript</li>
-                <li className='list-inside'>PlanetScale DB</li>
+              <ul className='flex flex-wrap gap-x-1.5 gap-y-1.5 text-md text-left italic font-semibold'>
+                <li className='list-inside'>PlanetScale</li>
                 <li className='list-inside'>TypeScript</li>
-                <li className='list-inside'>Node.js</li>
                 <li className='list-inside'>Prisma</li>
               </ul>
             </a>
@@ -42,7 +42,7 @@ const Projects = () => {
                 create a Discord bot that delivers specific gifs based on users`&apos;`
                 requests within a server.
               </p>
-              <ul className='flex flex-wrap gap-x-5 gap-y-1.5 text-md text-left'>
+              <ul className='flex flex-wrap gap-x-2.5 gap-y-1.5 text-md text-left italic font-semibold'>
                 <li className='list-inside'>Node.js</li>
                 <li className='list-inside'>JavaScript</li>
                 <li className='list-inside'>Discord.js</li>
@@ -62,11 +62,10 @@ const Projects = () => {
                 </div>
                 <p className='mb-4 text-md text-left'>
                   Developed a program that classifies an object through a webcam
-                  utilizing a model that was trained using the ImageNet
-                  database. Program returns the confidence level of the image
-                  classification.
+                  utilizing an ImageNet trained model. Program returns the confidence 
+                  level of its classification.
                 </p>
-                <ul className='flex flex-wrap gap-x-5 gap-y-1.5 text-md text-left'>
+                <ul className='flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold'>
                   <li className='list-inside'>HTML</li>
                   <li className='list-inside'>JavaScript</li>
                   <li className='list-inside'>ImageNet</li>
@@ -89,10 +88,10 @@ const Projects = () => {
                   visible components. The site is currently being hosted
                   Netlify.
                 </p>
-                <ul className='flex flex-wrap gap-x-5 gap-y-1.5 text-md text-left'>
+                <ul className='flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold'>
                   <li className='list-inside'>Next.js</li>
                   <li className='list-inside'>TypeScript</li>
-                  <li className='list-inside'>Tailwind CSS</li>
+                  <li className='list-inside'>Tailwind</li>
                 </ul>
               </a>
             </Link>
