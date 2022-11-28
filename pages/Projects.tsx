@@ -18,7 +18,7 @@ const Projects = () => {
             <a target='_blank'>
               <div className='mb-1 text-lg font-bold'>Ty Bot</div>
               <p className='mb-4 text-md text-left'>
-                Contributed to the UCF Knights Discord Server`&apos;`s bot by
+                Contributed to the UCF Knights Discord Server&apos;s bot by
                 developing a birthday feature. Connected the bot to a
                 planetscale database for user profile storage (birthdays).
               </p>
@@ -39,7 +39,7 @@ const Projects = () => {
               <div className='mb-1 text-lg font-bold'>Pls Bot</div>
               <p className='mb-4 text-md text-left'>
                 Leveraged Tenor API in conjunction with the fetch() function to
-                create a Discord bot that delivers specific gifs based on users`&apos;`
+                create a Discord bot that delivers specific gifs based on users&apos;
                 requests within a server.
               </p>
               <ul className='flex flex-wrap gap-x-2.5 gap-y-1.5 text-md text-left italic font-semibold'>
