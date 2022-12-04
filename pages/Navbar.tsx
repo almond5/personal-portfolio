@@ -1,11 +1,14 @@
 import Link from 'next/link';
 import React, { useState, useEffect, useCallback } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
+import MobileSidebar from './MobileSidebar';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const [nav, setNav] = useState(false);
   const [scrollY, setScrollY] = useState(0);
+  const [showMobileNav, setShowMobileNav] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -39,33 +42,37 @@ const Navbar = () => {
       >
         <div className='grid place-items-end w-full h-8 2xl:px-5'>
           <div>
-          <ul className='hidden items-center md:flex'>
-            <li className='px-4 font-bold text-xl'>
-              <a href='#home'>Home</a>
-            </li>
-            <li className='px-4 font-bold text-xl'>
-              <a href='#about'>About</a>
-            </li>
-            <li className='px-4 font-bold text-xl'>
-              <a href='#projects'>Projects</a>
-            </li>
-            <li className='px-4 font-bold text-xl'>
-              <Link href='mailto:adrianhossen5@gmail.com'>Contact</Link>
-            </li>
-            <li className='px-4 font-bold text-xl'>
-              <Link href='resume.pdf'>Resume</Link>
-            </li>
-          </ul>
-            {/* Hamburger Icon */}
-            <div
-              onClick={handleNav}
+            <ul className='hidden items-center md:flex'>
+              <li className='px-4 font-bold text-xl'>
+                <a href='#home'>Home</a>
+              </li>
+              <li className='px-4 font-bold text-xl'>
+                <a href='#about'>About</a>
+              </li>
+              <li className='px-4 font-bold text-xl'>
+                <a href='#projects'>Projects</a>
+              </li>
+              <li className='px-4 font-bold text-xl'>
+                <Link href='mailto:adrianhossen5@gmail.com'>Contact</Link>
+              </li>
+              <li className='px-4 font-bold text-xl'>
+                <Link href='resume.pdf'>Resume</Link>
+              </li>
+            </ul>
+            <button
               className='md:hidden'
+              aria-label='open sidebar'
+              onClick={() => setShowMobileNav(true)}
             >
-              <AiOutlineMenu size={25} />
-            </div>
+              <MenuIcon />
+            </button>
           </div>
         </div>
       </div>
+      <MobileSidebar
+        show={showMobileNav}
+        close={() => setShowMobileNav(false)}
+      />
     </div>
   );
 };
