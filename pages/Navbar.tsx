@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import React, { useState, useEffect, useCallback } from 'react';
-import MobileSidebar from './MobileSidebar';
-import MenuIcon from '@mui/icons-material/Menu';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import Footer from '../src/components/Footer';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   const [nav, setNav] = useState(false);
   const [scrollY, setScrollY] = useState(0);
-  const [showMobileNav, setShowMobileNav] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -58,20 +57,9 @@ const Navbar = () => {
                 <Link href='resume.pdf'>Resume</Link>
               </li>
             </ul>
-            <button
-              className='md:hidden'
-              aria-label='open sidebar'
-              onClick={() => setShowMobileNav(true)}
-            >
-              <MenuIcon />
-            </button>
           </div>
         </div>
       </div>
-      <MobileSidebar
-        show={showMobileNav}
-        close={() => setShowMobileNav(false)}
-      />
     </div>
   );
 };
