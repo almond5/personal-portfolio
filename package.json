@@ -19,7 +19,8 @@
     "react-burger-menu": "^3.0.8",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
-    "react-responsive": "^9.0.2"
+    "react-responsive": "^9.0.2",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
     "@types/node": "18.8.5",

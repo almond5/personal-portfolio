@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React, { useState, useEffect, useCallback } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
 import MobileSidebar from './MobileSidebar';
 import MenuIcon from '@mui/icons-material/Menu';
 

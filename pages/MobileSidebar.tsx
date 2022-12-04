@@ -9,7 +9,6 @@ interface Props {
 }
 
 const MobileSidebar: React.FC<Props> = ({ show, close }) => {
-  const isMd = useMediaQuery({
     query: '(min-width: 768px)',
   });
 
