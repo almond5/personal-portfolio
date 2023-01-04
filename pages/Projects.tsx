@@ -38,12 +38,12 @@ const Projects = () => {
           className="outline bg-stone-100 
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
         >
-          <Link href="https://github.com/adrianhossen5/clippy-notes">
+          <Link href="https://github.com/adrianhossen5/comp-notes">
             <a target="_blank">
-              <div className="mb-1 text-lg font-bold">Clippy Notes</div>
+              <div className="mb-1 text-lg font-bold">Comp Notes</div>
               <p className="mb-4 text-md text-left">
                 Created a notes app where users can view, create, and delete
-                clippy notes at will. Via Next-Auth, all of the user&apos;s
+                comp notes at will. Via Next-Auth, all of the user&apos;s
                 notes will be secured.
               </p>
               <ul className="flex flex-wrap gap-x-2.5 gap-y-1.5 text-md text-left italic font-semibold">
