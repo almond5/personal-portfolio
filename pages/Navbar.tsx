@@ -51,7 +51,7 @@ const Navbar = () => {
                 <a href='#projects'>Projects</a>
               </li>
               <li className='px-4 font-bold text-xl'>
-                <Link href='mailto:adrianhossen5@gmail.com'>Contact</Link>
+                <Link href='mailto:adrianhossen5@knights.ucf.edu'>Contact</Link>
               </li>
               <li className='px-4 font-bold text-xl'>
                 <Link href='resume.pdf'>Resume</Link>
