@@ -16,7 +16,7 @@ const Footer = () => {
         </Link>
       </button>
       <button>
-        <Link href="mailto:adrianhossen5@gmail.com">
+        <Link href="mailto:adrianhossen5@knights.ucf.edu">
           <FaEnvelope className="text-3xl" />
         </Link>
       </button>
