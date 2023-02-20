@@ -21,7 +21,7 @@ const Footer = () => {
         </Link>
       </button>
       <button className='px-4'>
-        <Link href="mailto:adrianhossen5@knights.ucf.edu">
+        <Link href='resume.pdf'>
           <FaNewspaper className="text-3xl" />
         </Link>
       </button>
