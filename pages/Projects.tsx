@@ -82,24 +82,23 @@ const Projects = () => {
             className="outline bg-stone-100 
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
-            <Link href="https://github.com/adrianhossen5/Video-Image-Classification">
               <a target="_blank">
                 <div className="mb-1 text-lg font-bold">
-                  Video Image Classification
+                  College Event Website
                 </div>
                 <p className="mb-4 text-md text-left">
-                  Developed a program that classifies an object through a webcam
-                  utilizing an ImageNet trained model. Program returns the
-                  confidence level of its classification.
+                  Implemented a college social platform which facilitated 
+                  event and RSO administration for several universities. 
+                  Enabled users to view/join these events and/or RSOs.
                 </p>
                 <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold">
-                  <li className="list-inside">HTML</li>
-                  <li className="list-inside">JavaScript</li>
-                  <li className="list-inside">ImageNet</li>
-                </ul>
+                    <li className="list-inside">Next.js</li>
+                    <li className="list-inside">TypeScript</li>
+                    <li className="list-inside">Next-Auth</li>
+                    <li className="list-inside">TailwindCSS</li> 
+               </ul>
               </a>
-            </Link>
-          </li>
+           </li>
         </div>
       </ul>
     </div>
