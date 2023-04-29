@@ -10,7 +10,7 @@ const About = () => {
           About Me
         </p>
         <p className='mb-4 text-xl text-left'>
-          Greetings! Here is a litle bit about my programming journey. My
+          Greetings! Here is a little bit about my programming journey: My
           programming journey started back in middle school where Minecraft was
           the most popular game at the time. Due to this huge popularity, my
           interests in all things Minecraft grew, which included coding plugins
@@ -35,6 +35,7 @@ const About = () => {
           <li className='list-inside list-disc'>PlanetScale DB</li>
           <li className='list-inside list-disc'>TypeScript</li>
           <li className='list-inside list-disc'>CosmoDB</li>
+          <li className='list-inside list-disc'>Prisma</li>
           <li className='list-inside list-disc'>HTML</li>
           <li className='list-inside list-disc'>Python</li>
           <li className='list-inside list-disc'>Node.js</li>
