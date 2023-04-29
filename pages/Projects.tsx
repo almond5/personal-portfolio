@@ -51,6 +51,7 @@ const Projects = () => {
                 <li className="list-inside">TypeScript</li>
                 <li className="list-inside">Next-Auth</li>
                 <li className="list-inside">TailwindCSS</li>
+                <li className="list-inside">Prisma</li>
               </ul>
             </a>
           </Link>
@@ -96,6 +97,7 @@ const Projects = () => {
                   <li className="list-inside">TypeScript</li>
                   <li className="list-inside">Next-Auth</li>
                   <li className="list-inside">TailwindCSS</li> 
+                  <li className="list-inside">Prisma</li>
                </ul>
               </a>
            </li>
