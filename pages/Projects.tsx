@@ -92,10 +92,10 @@ const Projects = () => {
                   Enabled users to view/join these events and/or RSOs.
                 </p>
                 <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold">
-                    <li className="list-inside">Next.js</li>
-                    <li className="list-inside">TypeScript</li>
-                    <li className="list-inside">Next-Auth</li>
-                    <li className="list-inside">TailwindCSS</li> 
+                  <li className="list-inside">Next.js</li>
+                  <li className="list-inside">TypeScript</li>
+                  <li className="list-inside">Next-Auth</li>
+                  <li className="list-inside">TailwindCSS</li> 
                </ul>
               </a>
            </li>
