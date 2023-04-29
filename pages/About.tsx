@@ -35,6 +35,7 @@ const About = () => {
           <li className='list-inside list-disc'>TypeScript</li>
           <li className='list-inside list-disc'>CosmoDB</li>
           <li className='list-inside list-disc'>Prisma</li>
+          <li className='list-inside list-disc'>SQL</li>
           <li className='list-inside list-disc'>HTML</li>
           <li className='list-inside list-disc'>Python</li>
           <li className='list-inside list-disc'>Node.js</li>
