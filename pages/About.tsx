@@ -22,7 +22,7 @@ const About = () => {
           (PM/SWE) where I developed many skills that I plan to build upon
           within the upcoming years. At this 12 week internship, I was tasked on
           creating a User Experience for Bing under Content Services. I&apos;m
-          also an incoming Software Engineering intern for Microsoft where I
+          also an incoming Software Engineer intern for Microsoft where I
           will continue to deliver user experiences for Bing.
         </p>
         <p className='mb-4 text-xl text-left'>
