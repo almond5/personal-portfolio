@@ -85,7 +85,7 @@ const Projects = () => {
           >
               <a target="_blank">
                 <div className="mb-1 text-lg font-bold">
-                  College Event Website
+                  University Connect
                 </div>
                 <p className="mb-4 text-md text-left">
                   Implemented a college social platform which facilitated 
