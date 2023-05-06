@@ -43,8 +43,8 @@ const Projects = () => {
               <div className="mb-1 text-lg font-bold">Comp Notes</div>
               <p className="mb-4 text-md text-left">
                 Created a notes app where users can view, create, and delete
-                comp notes at will. Via Next-Auth, all of the user&apos;s
-                notes will be secured.
+                comp notes at will. Via Next-Auth, all of the user&apos;s notes
+                will be secured.
               </p>
               <ul className="flex flex-wrap gap-x-2.5 gap-y-1.5 text-md text-left italic font-semibold">
                 <li className="list-inside">Next.js</li>
@@ -83,26 +83,23 @@ const Projects = () => {
             className="outline bg-stone-100 
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
-                        <Link href="https://github.com/adrianhossen5/Uni_Connect">
-
+            <Link href="https://github.com/adrianhossen5/Uni_Connect">
               <a target="_blank">
-                <div className="mb-1 text-lg font-bold">
-                  University Connect
-                </div>
+                <div className="mb-1 text-lg font-bold">University Connect</div>
                 <p className="mb-4 text-md text-left">
-                  Implemented a college social platform which facilitated 
-                  event and RSO administration for several universities. 
-                  Enabled users to view/join these events and/or RSOs.
+                  Implemented a college social platform which facilitated event
+                  and RSO administration for several universities. Enabled users
+                  to view/join these events and/or RSOs.
                 </p>
                 <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold">
                   <li className="list-inside">Next.js</li>
                   <li className="list-inside">TypeScript</li>
-                  <li className="list-inside">TailwindCSS</li> 
+                  <li className="list-inside">TailwindCSS</li>
                   <li className="list-inside">Prisma</li>
-               </ul>
+                </ul>
               </a>
-              </Link>
-           </li>
+            </Link>
+          </li>
         </div>
       </ul>
     </div>
