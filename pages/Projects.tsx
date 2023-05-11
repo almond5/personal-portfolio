@@ -93,12 +93,29 @@ const Projects = () => {
                 </p>
                 <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold">
                   <li className="list-inside">Next.js</li>
-                  <li className="list-inside">TypeScript</li>
                   <li className="list-inside">TailwindCSS</li>
                   <li className="list-inside">Prisma</li>
                 </ul>
               </a>
             </Link>
+          </li>
+        </div>
+        <div className="py-2">
+          <li
+            className="outline bg-stone-100 
+            p-7 transition-transform hover:-translate-y-2 rounded-xl"
+          >
+            <a target="_blank">
+              <div className="mb-1 text-lg font-bold">PL/0 Compiler</div>
+              <p className="mb-4 text-md text-left">
+                Implemented a lexical analyzer, parser, and code generator for
+                the PL/0 programming language. Enabled the steps of the compiler
+                to be visualized via distinct output files.
+              </p>
+              <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-md text-left italic font-semibold">
+                <li className="list-inside">C</li>
+              </ul>
+            </a>
           </li>
         </div>
       </ul>

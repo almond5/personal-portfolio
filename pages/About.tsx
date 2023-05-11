@@ -34,7 +34,7 @@ const About = () => {
           <li className='list-inside list-disc'>PlanetScale DB</li>
           <li className='list-inside list-disc'>TypeScript</li>
           <li className='list-inside list-disc'>CosmoDB</li>
-          <li className='list-inside list-disc'>Prisma</li>
+          <li className='list-inside list-disc'>Prisma ORM</li>
           <li className='list-inside list-disc'>SQL</li>
           <li className='list-inside list-disc'>HTML</li>
           <li className='list-inside list-disc'>Python</li>
@@ -44,6 +44,7 @@ const About = () => {
           <li className='list-inside list-disc'>C#</li>
           <li className='list-inside list-disc'>CSS</li>
           <li className='list-inside list-disc'>C</li>
+          <li className='list-inside list-disc'>React.js</li>
         </ul>
       </div>
     </div>
