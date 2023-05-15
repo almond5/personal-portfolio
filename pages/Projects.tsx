@@ -15,7 +15,7 @@ const Projects = () => {
         md:max-w-md lg:max-w-xl xl:max-w-xl 2xl:max-w-xl grid gap-6 md:grid-cols-2 lg:grid-cols-2"
       >
         <li
-          className="outline bg-stone-100 
+            className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
         >
           <Link href="https://github.com/adrianhossen5/personal_website">
@@ -35,7 +35,7 @@ const Projects = () => {
           </Link>
         </li>
         <li
-          className="outline bg-stone-100 
+            className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
         >
           <Link href="https://github.com/adrianhossen5/comp-notes">
@@ -58,7 +58,7 @@ const Projects = () => {
         </li>
         <div className="py-2">
           <li
-            className="outline bg-stone-100 
+            className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
             <Link href="https://github.com/adrianhossen5/ty">
@@ -80,7 +80,7 @@ const Projects = () => {
         </div>
         <div className="py-2">
           <li
-            className="outline bg-stone-100 
+            className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
             <Link href="https://github.com/adrianhossen5/Uni_Connect">
@@ -102,7 +102,7 @@ const Projects = () => {
         </div>
         <div className="py-2">
           <li
-            className="outline bg-stone-100 
+            className="outline bg-backgroundcolor 
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
             <a target="_blank">

@@ -18,8 +18,8 @@ const Hero = () => {
       <div className='py-10 mx-auto max-w-2xl'>
         <Link href='mailto:adrianhossen4@gmail.com'>
           <a
-            className='mx-auto rounded-full w-max border border-gray-800 px-6 py-3 
-            font-bold transition hover:bg-gray-500 hover:text-gray-800'
+            className='mx-auto rounded-full w-max border-2 px-6 py-3 
+            font-bold transition hover:bg-gray-100 hover:text-gray-800'
           >
             Contact Me
           </a>

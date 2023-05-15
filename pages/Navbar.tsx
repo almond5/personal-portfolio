@@ -1,16 +1,9 @@
 import Link from 'next/link';
 import React, { useState, useEffect, useCallback } from 'react';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Footer from '../src/components/Footer';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
-  const [nav, setNav] = useState(false);
   const [scrollY, setScrollY] = useState(0);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
 
   const handleScroll = useCallback(() => {
     window.scrollY - scrollY > 0 ? setShowNav(false) : setShowNav(true);
