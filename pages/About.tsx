@@ -19,7 +19,7 @@ const About = () => {
           the most popular game. Due to this craze, my interests in all things
           Minecraft grew, including plugins and mods. My interests eventually
           led me to learn Java and the rest is history. I am now a Computer
-          Science major @ the Univeristy of Central Florida and an incoming
+          Science major @ the University of Central Florida and an incoming
           Software Engineer Intern @ Microsoft!
         </p>
         <p className="mb-4 text-xl text-left">
