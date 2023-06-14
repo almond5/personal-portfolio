@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className="text-center py-12 mx-auto bg-blend-color max-w-screen-sm">
+    <div id="about" className="text-center py-36 mx-auto bg-blend-color max-w-screen-sm">
       <div
         className="mx-auto max-w-sm text-xl text-left xs:max-w-sm sm:max-w-sm 
         md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-lg"

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import router from 'next/router';
 import React, { useState, useEffect, useCallback } from 'react';
 
 const Navbar = () => {
@@ -35,13 +36,13 @@ const Navbar = () => {
           <div>
             <ul className='hidden items-center md:flex'>
               <li className='px-4 font-bold text-xl'>
-                <a href='#home'>Home</a>
+                <button onClick={() => router.push('/Hero')}>Home</button>
               </li>
               <li className='px-4 font-bold text-xl'>
-                <a href='#about'>About</a>
+                <button onClick={() => router.push('/About')}>About</button>
               </li>
               <li className='px-4 font-bold text-xl'>
-                <a href='#projects'>Projects</a>
+                <button onClick={() => router.push('/Projects')}>Projects</button>
               </li>
               <li className='px-4 font-bold text-xl'>
                 <Link href='mailto:adrianhossen4@gmail.com'>Contact</Link>

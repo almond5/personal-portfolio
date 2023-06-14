@@ -3,7 +3,7 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div id="projects" className="flex-col text-center py-60">
+    <div id="projects" className="flex-col text-center py-36">
       <div
         className="mx-auto max-w-sm text-xl text-left xs:max-w-sm sm:max-w-sm 
         md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-lg"

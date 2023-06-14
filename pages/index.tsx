@@ -1,8 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react'
-import About from './About';
-import Footer from '../src/components/Footer';
+
 import Hero from './Hero';
 import Projects from './Projects';
 
@@ -20,9 +19,6 @@ const Home: NextPage = () => {
         <meta property='og:description' content='UCF CS Student'/>
       </Head>
       <Hero></Hero>
-      <About></About>
-      <Projects></Projects>
-      <Footer></Footer>
     </div>
   );
 };
