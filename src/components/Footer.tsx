@@ -11,7 +11,7 @@ const Footer = () => {
         </Link>
       </button>
       <button className='px-4'>
-        <Link href="https://github.com/adrianhossen5">
+        <Link href="https://github.com/almond5">
           <FaGithub className="text-3xl" />
         </Link>
       </button>
