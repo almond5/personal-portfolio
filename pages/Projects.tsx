@@ -18,7 +18,7 @@ const Projects = () => {
             className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
         >
-          <Link href="https://github.com/adrianhossen5/personal_website">
+          <Link href="https://github.com/almond5/personal_website">
             <a target="_blank">
               <div className="mb-1 text-lg font-bold">Personal Portfolio</div>
               <p className="mb-4 text-md text-left">
@@ -38,7 +38,7 @@ const Projects = () => {
             className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
         >
-          <Link href="https://github.com/adrianhossen5/comp-notes">
+          <Link href="https://github.com/almond5/comp-notes">
             <a target="_blank">
               <div className="mb-1 text-lg font-bold">Comp Notes</div>
               <p className="mb-4 text-md text-left">
@@ -61,7 +61,7 @@ const Projects = () => {
             className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
-            <Link href="https://github.com/adrianhossen5/ty">
+            <Link href="https://github.com/almond5/ty">
               <a target="_blank">
                 <div className="mb-1 text-lg font-bold">Ty Bot</div>
                 <p className="mb-4 text-md text-left">
@@ -83,7 +83,7 @@ const Projects = () => {
             className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
-            <Link href="https://github.com/adrianhossen5/Uni_Connect">
+            <Link href="https://github.com/almond5/Uni_Connect">
               <a target="_blank">
                 <div className="mb-1 text-lg font-bold">University Connect</div>
                 <p className="mb-4 text-md text-left">
