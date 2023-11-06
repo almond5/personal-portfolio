@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../src/components/Footer';
 
 const About = () => {
   return (
@@ -14,12 +15,12 @@ const About = () => {
           About Me
         </p>
         <p className="mb-4 text-xl text-left">
-          Hello! Here is a little bit about my programming journey: My journey
+          Greetings! Here is a little bit about my programming journey: My journey
           dates back to my time in middle school where Minecraft was arguably
           the most popular game. Due to this craze, my interests in all things
           Minecraft grew, including plugins and mods. My interests eventually
           led me to learn Java and the rest is history. I am now a Computer
-          Science major @ the University of Central Florida and an incoming
+          Science major @ the University of Central Florida and a returning
           Software Engineer Intern @ Microsoft!
         </p>
         <p className="mb-4 text-xl text-left">

@@ -1,11 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import React from 'react'
+import Home from './Home';
 
-import Hero from './Hero';
-import Projects from './Projects';
-
-const Home: NextPage = () => {
+const Index: NextPage = () => {
   return (
     <div className='mx-auto max-w-screen-lg'>
       <Head>
@@ -18,9 +16,9 @@ const Home: NextPage = () => {
         <meta property='og:title' content='Adrian Hossen' />
         <meta property='og:description' content='UCF CS Student'/>
       </Head>
-      <Hero></Hero>
+      <Home></Home>
     </div>
   );
 };
 
-export default Home;
+export default Index;

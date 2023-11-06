@@ -36,7 +36,7 @@ const Navbar = () => {
           <div>
             <ul className='hidden items-center md:flex'>
               <li className='px-4 font-bold text-xl'>
-                <button onClick={() => router.push('/Hero')}>Home</button>
+                <button onClick={() => router.push('/Home')}>Home</button>
               </li>
               <li className='px-4 font-bold text-xl'>
                 <button onClick={() => router.push('/About')}>About</button>
@@ -45,10 +45,10 @@ const Navbar = () => {
                 <button onClick={() => router.push('/Projects')}>Projects</button>
               </li>
               <li className='px-4 font-bold text-xl'>
-                <Link href='mailto:adrianhossen4@gmail.com'>Contact</Link>
+                <button onClick={() => router.push('/Resume')}>Resume</button>
               </li>
               <li className='px-4 font-bold text-xl'>
-                <Link href='resume.pdf'>Resume</Link>
+                <Link href='mailto:adrianhossen4@gmail.com'>Contact</Link>
               </li>
             </ul>
           </div>
