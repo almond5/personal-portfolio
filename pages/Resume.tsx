@@ -16,8 +16,8 @@ const Resume = () => {
         </p>
         <div className='py-2'></div>
         </div>
-        <embed src='resume.pdf#zoom=100&navpanes=0&scrollbar=0' 
-          type="application/pdf" width={"810"} height={"800"} ></embed>
+        <embed src='resume.pdf#zoom=90&navpanes=0&scrollbar=0' 
+          type="application/pdf" width={"770"} height={"1010"} ></embed>
       </div>
     </div>
   );
