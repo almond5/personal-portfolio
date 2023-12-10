@@ -19,35 +19,37 @@ const Navbar = () => {
   }, [handleScroll]);
 
   return (
-    <div className='max-w-screen-lg'>
+    <div className="max-w-screen-lg">
       <div
-        className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
+        className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out 
         ${
           showNav && scrollY != 0
-            ? 'h-28 shadow-md backdrop-blur'
+            ? 'h-28 shadow-md backdrop-blur-md'
             : `${
                 scrollY == 0
-                  ? 'h-24 shadow-none backdrop-blur-0'
-                  : 'h-0 shadow-none backdrop-blur'
+                  ? 'h-28 shadow-none backdrop-blur-md'
+                  : 'h-0 shadow-none backdrop-blur-md'
               }`
         }`}
       >
-        <div className='grid place-items-end w-full h-8 2xl:px-5'>
+        <div className="grid place-items-end w-full h-8">
           <div>
-            <ul className='hidden items-center md:flex'>
-              <li className='px-4 font-bold text-xl'>
+            <ul className="hidden items-center md:flex">
+              <li className="px-4 font-bold text-2xl">
                 <button onClick={() => router.push('/Home')}>Home</button>
               </li>
-              <li className='px-4 font-bold text-xl'>
+              <li className="px-4 font-bold text-2xl">
                 <button onClick={() => router.push('/About')}>About</button>
               </li>
-              <li className='px-4 font-bold text-xl'>
-                <button onClick={() => router.push('/Projects')}>Projects</button>
+              <li className="px-4 font-bold text-2xl">
+                <button onClick={() => router.push('/Projects')}>
+                  Projects
+                </button>
               </li>
-              <li className='px-4 font-bold text-xl'>
+              <li className='px-4 font-bold text-2xl'>
                 <button onClick={() => router.push('/Resume')}>Resume</button>
               </li>
-              <li className='px-4 font-bold text-xl'>
+              <li className='px-4 font-bold text-2xl'>
                 <Link href='mailto:adrianhossen4@gmail.com'>Contact</Link>
               </li>
             </ul>
