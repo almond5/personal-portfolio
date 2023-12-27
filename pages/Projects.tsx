@@ -43,7 +43,7 @@ const Projects = () => {
                 <li className="list-inside">Next.js</li>
                 <li className="list-inside">TypeScript</li>
                 <li className="list-inside">Next-Auth</li>
-                <li className="list-inside">TailwindCSS</li>
+                <li className="list-inside">Tailwind</li>
                 <li className="list-inside">Prisma</li>
               </ul>
             </div>
@@ -57,20 +57,22 @@ const Projects = () => {
             className="outline bg-backgroundcolor
             p-7 transition-transform hover:-translate-y-2 rounded-xl"
           >
-            <Link href="https://github.com/almond5/Uni_Connect">
+            <Link href="https://github.com/almond5/PetPals">
               <div>
                 <div className="mb-1 text-2xl font-bold">
-                  University Connect
+                  PetPals
                 </div>
                 <div className="mb-4 text-xl text-left">
-                  Implemented a college social platform which facilitated event
-                  and RSO administration for several universities. Enabled users
-                  to view/join these events and/or RSOs.
+                Collaborated to create a dating app for pets in which pet 
+                owners can create pet profiles and connect with others.
                 </div>
                 <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-xl text-left italic font-semibold">
                   <li className="list-inside">Next.js</li>
-                  <li className="list-inside">TailwindCSS</li>
+                  <li className="list-inside">Tailwind</li>
                   <li className="list-inside">Prisma</li>
+                  <li className="list-inside">NoSQL</li>
+                  <li className="list-inside">Vercel</li>
+                  <li className="list-inside">Figma</li>
                 </ul>
               </div>
             </Link>
@@ -94,6 +96,59 @@ const Projects = () => {
               </ul>
             </div>
           </li>
+        </div>
+        <div className="py-2">
+        <button>
+
+          <li
+            className="outline bg-backgroundcolor
+            p-7 transition-transform hover:-translate-y-2 rounded-xl"
+          >
+            <Link href="https://github.com/almond5/Uni_Connect">
+              <div>
+                <div className="mb-1 text-2xl font-bold">
+                  University Connect
+                </div>
+                <div className="mb-4 text-xl text-left">
+                  Implemented a college social platform which facilitated event
+                  and RSO administration for several universities. Enabled users
+                  to view/join these events and/or RSOs.
+                </div>
+                <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-xl text-left italic font-semibold">
+                  <li className="list-inside">Next.js</li>
+                  <li className="list-inside">Tailwind</li>
+                  <li className="list-inside">Prisma</li>
+                  <li className="list-inside">MySQL</li>
+
+                </ul>
+              </div>
+            </Link>
+          </li>
+          </button>
+        </div>
+        <div className="py-2">
+          <button>
+          <li
+            className="outline bg-backgroundcolor
+            p-7 transition-transform hover:-translate-y-2 rounded-xl"
+          >
+            <Link href="https://github.com/almond5/POOSD">
+            <div>
+              <div className="mb-1 text-2xl font-bold">Contastic</div>
+              <div className="mb-4 text-xl text-left">
+                Created an autheticated contact management system where users
+                can create, edit, search, and delete contacts. Deployed the LAMP application on Digital Ocean. </div>
+              <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-xl text-left italic font-semibold">
+                <li className="list-inside">PHP</li>
+                <li className="list-inside">Javascript</li>
+                <li className="list-inside">MySQL</li>
+                <li className="list-inside">Digital Ocean</li>
+
+              </ul>
+            </div>
+            </Link>
+          </li>
+          </button>
         </div>
       </ul>
     </div>

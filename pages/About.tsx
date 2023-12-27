@@ -24,9 +24,9 @@ const About = () => {
         <div className="text-left text-3xl font-semibold mb-2">Experience</div>
         <div className="mb-6 text-2xl text-left">
           <div className="mb-3">
-            Currently, I am a teaching assistant for Dr. Steinberg&apos;s
+            Recently, I was a teaching assistant for Dr. Steinberg&apos;s
             Introduction to C Programming course at UCF. As a teaching
-            assistant, I host office hours, administer exams, and grade several
+            assistant, I hosted office hours, administered exams, and graded several
             assignments.
           </div>
           <div className="mb-3">
