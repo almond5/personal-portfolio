@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="mb-1 text-2xl font-bold">Personal Portfolio</div>
             <p className="mb-4 text-xl text-left">
               Developed a personal portfolio utilizng the Next.js framework.
-              Excersied the use of Tailwind CSS to style nearly all the visible
+              Exercised the use of Tailwind to style nearly all the visible
               components. The site is currently being hosted Netlify.
             </p>
             <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-xl text-left italic font-semibold">
