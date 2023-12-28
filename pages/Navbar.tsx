@@ -34,7 +34,7 @@ const Navbar = () => {
       >
         <div className="grid place-items-end w-full h-8">
           <div>
-            <ul className="hidden items-center md:flex">
+            <ul className="items-center flex">
               <li className="px-4 font-bold text-2xl">
                 <button onClick={() => router.push('/Home')}>Home</button>
               </li>
@@ -48,9 +48,6 @@ const Navbar = () => {
               </li>
               <li className='px-4 font-bold text-2xl'>
                 <button onClick={() => router.push('/Resume')}>Resume</button>
-              </li>
-              <li className='px-4 font-bold text-2xl'>
-                <Link href='mailto:adrianhossen4@gmail.com'>Contact</Link>
               </li>
             </ul>
           </div>
