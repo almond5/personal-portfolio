@@ -6,7 +6,7 @@ const Resume = () => {
     <>
       <div
         id="resume"
-        className="min-h-screen flex mx-auto text-center pt-36 pb-12"
+        className="min-h-screen flex mx-auto text-center pt-36 pb-14"
       >
         <div className="mx-auto">
           <div
