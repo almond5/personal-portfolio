@@ -5,7 +5,7 @@ import Home from './Home';
 
 const Index: NextPage = () => {
   return (
-    <div className='mx-auto max-w-screen-lg'>
+    <div className=''>
       <Head>
         <title>Adrian Hossen</title>
         <meta name='title' content='Adrian Hossen' />

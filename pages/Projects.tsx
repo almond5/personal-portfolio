@@ -5,7 +5,10 @@ import Footer from '../src/components/Footer';
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="flex-col text-center py-40 ">
+      <div
+        id="projects"
+        className="min-h-screen flex-col text-center pt-40 pb-20"
+      >
         <div className="mx-auto text-xl text-left max-w-xl ">
           <div className="mb-8 text-3xl text-left font-bold">Projects</div>
         </div>
@@ -150,7 +153,7 @@ const Projects = () => {
           </div>
         </ul>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

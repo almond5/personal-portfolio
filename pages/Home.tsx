@@ -1,58 +1,48 @@
 import Link from 'next/link';
 import React from 'react';
 import styles from '../styles/home.module.css';
-import FooterHome from '../src/components/FooterHome';
+import Footer from '../src/components/Footer';
 
 const Home = () => {
   return (
-    <>
-      <div>
-        <div id="home" className="py-52">
-          <div className="pl-6 flex flex-col md:flex-row justify-center gap-16">
-            <div>
-              <div className="mb-3 text-3xl leading-2;">
-                Greetings, my name is
-              </div>
-              <div
-                className="mb-5 text-5xl font-semibold xs:text-5xl sm:text-5xl md:text-5xl 
+    <div id="home" className="pt-56 min-h-screen flex flex-col">
+      <div className="pl-6 flex flex-col md:flex-row justify-center gap-16 flex-1">
+        <div>
+          <div className="mb-3 text-3xl leading-2">Greetings, my name is</div>
+          <div
+            className="mb-5 text-5xl font-semibold xs:text-5xl sm:text-5xl md:text-5xl 
               lg:text-6xl xl:text-6xl"
-              >
-                Adrian Hossen.
-              </div>
-              <div
-                className="text-2xl text-left xs:max-w-sm sm:max-w-sm md:max-w-sm 
+          >
+            Adrian Hossen.
+          </div>
+          <div
+            className="text-2xl text-left xs:max-w-sm sm:max-w-sm md:max-w-sm 
             lg:max-w-md xl:max-w-md"
-              >
-                I am a software developer with a growth mindset who is always
-                eager to learn more. I love programming and sharing my knowledge
-                with others! Please contact me with any questions or if you just
-                wish to chat.
-              </div>
-              <div className="py-14 mx-auto max-w-2xl px-1">
-                <button>
-                  <Link href="mailto:adrianhossen4@gmail.com">
-                    <div
-                      className="rounded-2xl w-max border-4 border-neutral-100 px-6 py-3 
+          >
+            I am a software developer with a growth mindset who is always eager
+            to learn more. I love programming and sharing my knowledge with
+            others! Please contact me with any questions or if you just wish to
+            chat.
+          </div>
+          <div className="py-14 mx-auto max-w-2xl px-1">
+            <button>
+              <Link href="mailto:adrianhossen4@gmail.com">
+                <div
+                  className="rounded-2xl w-max border-4 border-neutral-100 px-6 py-3 
             font-bold transition hover:bg-gray-500 hover:text-gray-200 text-xl"
-                    >
-                      Contact Me
-                    </div>
-                  </Link>
-                </button>
-              </div>
-            </div>
-            <div className="pl-6 pr-6 py-3">
-              <img
-                src="me.jpg"
-                className={styles.card}
-                alt="Adrian Hossen"
-              ></img>
-            </div>
+                >
+                  Contact Me
+                </div>
+              </Link>
+            </button>
           </div>
         </div>
+        <div className="pl-6 pr-6 py-3">
+          <img src="me.jpg" className={styles.card} alt="Adrian Hossen"></img>
+        </div>
       </div>
-      <FooterHome></FooterHome>
-    </>
+      <Footer></Footer>
+    </div>
   );
 };
 

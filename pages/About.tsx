@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div
         id="about"
-        className="text-center py-40 mx-auto bg-blend-color max-w-screen-lg"
+        className="min-h-screen text-center pt-40 pb-20 mx-auto bg-blend-color max-w-screen-lg"
       >
         <div className="mx-auto text-xl text-left max-w-3xl">
           <div className="text-left text-3xl font-semibold mb-2">About Me</div>
@@ -93,7 +93,7 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

@@ -10,7 +10,7 @@ const Footer = () => {
         bottom: 0,
         width: '100%',
         textAlign: 'center',
-        padding: '10px 0', // Optional: Add padding for better styling
+        padding: '10px 0', // Optional: Add padding for better styling        
       }}
     >
       <div className="mb-3">

@@ -4,7 +4,10 @@ import Footer from '../src/components/Footer';
 const Resume = () => {
   return (
     <>
-      <div id="resume" className="flex mx-auto text-center py-32">
+      <div
+        id="resume"
+        className="min-h-screen flex mx-auto text-center pt-36 pb-12"
+      >
         <div className="mx-auto">
           <div
             className="mx-auto max-w-sm text-xl text-left xs:max-w-sm sm:max-w-sm 
@@ -24,7 +27,7 @@ const Resume = () => {
           <div className="py-4"></div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };
