@@ -95,11 +95,11 @@ const Navbar = () => {
         className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
         ${
           showNav && scrollY != 0
-            ? 'h-24 bg-backgroundcolor backdrop-blur-md'
+            ? 'h-24 bg-backgroundcolor border-gray-400 border-b-2'
             : `${
                 scrollY == 0
-                  ? 'h-28 bg-backgroundcolor border-gray-300 border-b-2'
-                  : 'h-0 bg-backgroundcolor backdrop-blur-md'
+                  ? 'h-28 bg-backgroundcolor border-gray-400 border-b-2'
+                  : 'h-0 bg-backgroundcolor border-gray-400 border-b-2'
               }`
         }`}
       >
