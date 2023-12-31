@@ -47,23 +47,59 @@ const Navbar = () => {
               <div className="flex justify-center">
                 <ul className="pt-20 flex flex-col text-left">
                   <li className="px-4 font-bold text-3xl py-6 ">
-                    <button onClick={() => router.push('/Home')}>Home</button>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setMobileSideBar(!mobileSidebar);
+                        router.push('/Home');
+                      }}
+                    >
+                      Home
+                    </button>
                   </li>
                   <li className="px-4 font-bold text-3xl">
-                    <button onClick={() => router.push('/About')}>About</button>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setMobileSideBar(!mobileSidebar);
+                        router.push('/About');
+                      }}
+                    >
+                      About
+                    </button>
                   </li>
                   <li className="px-4 font-bold text-3xl py-6">
-                    <button onClick={() => router.push('/Experience')}>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setMobileSideBar(!mobileSidebar);
+                        router.push('/Experience');
+                      }}
+                    >
+                      {' '}
                       Experience
                     </button>
                   </li>
                   <li className="px-4 font-bold text-3xl">
-                    <button onClick={() => router.push('/Projects')}>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setMobileSideBar(!mobileSidebar);
+                        router.push('/Projects');
+                      }}
+                    >
+                      {' '}
                       Projects
                     </button>
                   </li>
                   <li className="px-4 font-bold text-3xl py-6">
-                    <button onClick={() => router.push('/Resume')}>
+                    <button
+                      onClick={(e) => {
+                        e.preventDefault();
+                        setMobileSideBar(!mobileSidebar);
+                        router.push('/Resume');
+                      }}
+                    >
                       Resume
                     </button>
                   </li>
