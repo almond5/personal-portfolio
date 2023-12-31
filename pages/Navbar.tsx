@@ -98,7 +98,7 @@ const Navbar = () => {
             ? 'h-24 bg-backgroundcolor backdrop-blur-md'
             : `${
                 scrollY == 0
-                  ? 'h-28 bg-backgroundcolor border-gray-400 border-b-2'
+                  ? 'h-28 bg-backgroundcolor border-gray-300 border-b-2'
                   : 'h-0 bg-backgroundcolor backdrop-blur-md'
               }`
         }`}
