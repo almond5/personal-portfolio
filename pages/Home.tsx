@@ -5,7 +5,7 @@ import Footer from '../src/components/Footer';
 
 const Home = () => {
   return (
-    <div id="home" className="pt-56 min-h-screen flex flex-col">
+    <div id="home" className="pt-60 min-h-screen flex flex-col">
       <div className="pl-6 flex flex-col md:flex-row justify-center gap-16 flex-1">
         <div>
           <div className="mb-3 text-3xl leading-2">Greetings, my name is</div>
