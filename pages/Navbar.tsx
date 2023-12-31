@@ -2,6 +2,7 @@ import router from 'next/router';
 import React, { useState, useEffect, useCallback } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import { AiOutlineClose } from 'react-icons/ai';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
@@ -93,15 +94,7 @@ const Navbar = () => {
                     </button>
                   </li>
                   <li className="px-4 font-bold text-3xl py-6">
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setMobileSideBar(!mobileSidebar);
-                        router.push('/Resume');
-                      }}
-                    >
-                      Resume
-                    </button>
+                    <Link href="/resume.pdf">Resume</Link>
                   </li>
                 </ul>
               </div>
@@ -146,7 +139,7 @@ const Navbar = () => {
                 </button>
               </li>
               <li className="px-4 font-bold text-2xl">
-                <button onClick={() => router.push('/Resume')}>Resume</button>
+                <Link href="/resume.pdf">Resume</Link>{' '}
               </li>
             </ul>
           </div>
