@@ -26,7 +26,7 @@ const Navbar = () => {
         <MobileSideBar></MobileSideBar>
       </div>
       <div
-        className={`fixed z-9 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out 
+        className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out 
         ${
           showNav && scrollY != 0
             ? 'h-24 shadow-md backdrop-blur-md'
