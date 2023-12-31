@@ -47,18 +47,7 @@ const Navbar = () => {
               </div>
               <div className="flex justify-center">
                 <ul className="pt-20 flex flex-col text-left">
-                  <li className="px-4 font-bold text-3xl py-6 ">
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setMobileSideBar(!mobileSidebar);
-                        router.push('/Home');
-                      }}
-                    >
-                      Home
-                    </button>
-                  </li>
-                  <li className="px-4 font-bold text-3xl">
+                  <li className="px-4 font-semibold text-3xl">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -69,7 +58,7 @@ const Navbar = () => {
                       About
                     </button>
                   </li>
-                  <li className="px-4 font-bold text-3xl py-6">
+                  <li className="px-4 font-semibold text-3xl py-6">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -81,7 +70,7 @@ const Navbar = () => {
                       Experience
                     </button>
                   </li>
-                  <li className="px-4 font-bold text-3xl">
+                  <li className="px-4 font-semibold text-3xl">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -93,7 +82,7 @@ const Navbar = () => {
                       Projects
                     </button>
                   </li>
-                  <li className="px-4 font-bold text-3xl py-6">
+                  <li className="px-4 font-semibold text-3xl py-6">
                     <Link href="/resume.pdf">Resume</Link>
                   </li>
                 </ul>
@@ -114,21 +103,21 @@ const Navbar = () => {
               }`
         }`}
       >
-        <div className="grid place-items-end w-full h-8">
+        <div className="font-bold text-3xl text-left sm:p-3 w-full xs:flex ">
+          <button className="" onClick={() => router.push('/Home')}>Adrian Hossen</button>
+        </div>
+        <div className="grid place-items-end h-8">
           <div>
-            <div className="flex items-center sm:hidden">
+            <div className="flex items-center md:hidden">
               <button onClick={() => setMobileSideBar(!mobileSidebar)}>
                 <MenuIcon fontSize="large" />
               </button>
             </div>
-            <ul className="hidden items-center sm:flex">
-              <li className="px-4 font-bold text-2xl">
-                <button onClick={() => router.push('/Home')}>Home</button>
-              </li>
-              <li className="px-4 font-bold text-2xl">
+            <ul className="hidden items-center md:flex">
+              <li className="px-4 font-semibold text-2xl">
                 <button onClick={() => router.push('/About')}>About</button>
               </li>
-              <li className="px-4 font-bold text-2xl">
+              <li className="px-4 font-semibold text-2xl">
                 <button onClick={() => router.push('/Experience')}>
                   Experience
                 </button>

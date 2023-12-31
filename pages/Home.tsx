@@ -37,7 +37,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="pr-6 pt-3 pb-14">
+        <div className="pr-6 pt-3 pb-14 mx-auto sm:mx-0 md:mx-0">
           <img src="me.jpg" className={styles.card} alt="Adrian Hossen"></img>
         </div>
       </div>

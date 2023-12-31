@@ -53,8 +53,8 @@ const Experience = () => {
               </div>
               <div className="mb-4 text-xl text-left">
                 As a teaching assistant for Dr. Steinberg&apos;s Introduction to
-                C Programming course @ UCF, I hosted office hours, administered
-                exams, and graded several assignments.
+                C Programming course @ UCF, I hosted office hours for five hours per week, assisted in administering
+                exams, and graded several programming assignments. 
               </div>
               <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-xl text-left italic font-semibold"></ul>
             </div>
