@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div id="home" className="pt-60 min-h-screen flex flex-col">
       <div className="pl-6 flex flex-col md:flex-row justify-center gap-16 flex-1">
-        <div>
+        <div className="pr-6">
           <div className="mb-3 text-3xl leading-2">Greetings, my name is</div>
           <div
             className="mb-5 text-5xl font-semibold xs:text-5xl sm:text-5xl md:text-5xl 
@@ -24,7 +24,7 @@ const Home = () => {
             others! Please contact me with any questions or if you just wish to
             chat.
           </div>
-          <div className="py-14 mx-auto max-w-2xl px-1">
+          <div className="pt-14 mx-auto max-w-2xl px-1">
             <button>
               <Link href="mailto:adrianhossen4@gmail.com">
                 <div
@@ -37,7 +37,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="pl-6 pr-6 py-3">
+        <div className="pr-6 pt-3 pb-14">
           <img src="me.jpg" className={styles.card} alt="Adrian Hossen"></img>
         </div>
       </div>
