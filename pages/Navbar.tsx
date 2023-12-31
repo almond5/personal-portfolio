@@ -92,19 +92,21 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out 
+        className={`fixed z-10 flex w-full items-center overflow-hidden px-8 transition-all ease-in-out
         ${
           showNav && scrollY != 0
-            ? 'h-24 shadow-md backdrop-blur-md'
+            ? 'h-24 bg-backgroundcolor backdrop-blur-md'
             : `${
                 scrollY == 0
-                  ? 'h-28 shadow-none backdrop-blur-md'
-                  : 'h-0 shadow-none backdrop-blur-md'
+                  ? 'h-28 bg-backgroundcolor border-gray-400 border-b-2'
+                  : 'h-0 bg-backgroundcolor backdrop-blur-md'
               }`
         }`}
       >
         <div className="font-bold text-3xl text-left sm:p-3 w-full xs:flex ">
-          <button className="" onClick={() => router.push('/Home')}>Adrian Hossen</button>
+          <button className="" onClick={() => router.push('/Home')}>
+            Adrian Hossen
+          </button>
         </div>
         <div className="grid place-items-end h-8">
           <div>
