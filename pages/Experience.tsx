@@ -13,7 +13,7 @@ const Experience = () => {
             Experience
           </div>
         </div>
-        <ul className="mx-auto max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <ul className="mx-auto max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
           <li className="outline bg-backgroundcolor p-5 transition-transform hover:-translate-y-2 rounded-xl flex flex-col h-full">
             <div className="flex flex-col h-full">
               <div className="mb-1 text-2xl font-bold">
