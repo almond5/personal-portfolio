@@ -46,7 +46,7 @@ const Navbar = () => {
                 </button>
               </div>
               <div className="flex justify-center">
-                <ul className="pt-20 flex flex-col text-left">
+                <ul className="pt-16 flex flex-col text-left">
                   <li className="px-4 font-semibold text-3xl">
                     <button
                       onClick={(e) => {

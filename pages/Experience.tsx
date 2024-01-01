@@ -8,12 +8,12 @@ const Experience = () => {
         id="Experience"
         className="min-h-screen text-center pt-40 mx-auto bg-blend-color max-w-screen-lg"
       >
-        <div className="mx-auto text-xl text-left max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full">
+        <div className="mx-auto text-xl text-left max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full">
           <div className="text-left text-3xl font-semibold mb-8">
             Experience
           </div>
         </div>
-        <ul className="mx-auto max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
+        <ul className="mx-auto max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
           <li className="outline bg-backgroundcolor p-5 transition-transform hover:-translate-y-2 rounded-xl flex flex-col h-full">
             <div className="flex flex-col h-full">
               <div className="mb-1 text-2xl font-bold">
