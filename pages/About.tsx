@@ -31,22 +31,22 @@ const About = () => {
             data analysis, machine learning models, and object oriented systems.
             Here is a list of the technologies that I am familiar with:
           </div>
-          <ul className="grid grid-cols-2 whitespace-nowrap gap-x-2 text-left text-2xl sm:grid-cols-3 ">
+          <ul className="grid grid-cols-2 whitespace-nowrap gap-x-2 text-left text-2xl sm:grid-cols-2 md:grid-cols-3 ">
             <li className="list-inside list-disc">C#</li>
             <li className="list-inside list-disc">GitHub</li>
-            <li className="list-inside list-disc">Azure DevOps</li>
             <li className="list-inside list-disc">React.js</li>
+            <li className="list-inside list-disc">Azure DevOps</li>
             <li className="list-inside list-disc">Next.js</li>
             <li className="list-inside list-disc">Digital Ocean</li>
             <li className="list-inside list-disc">Linux</li>
-            <li className="list-inside list-disc">VSCode</li>
             <li className="list-inside list-disc">Visual Studio</li>
+            <li className="list-inside list-disc">VSCode</li>
             <li className="list-inside list-disc">HTML/CSS</li>
             <li className="list-inside list-disc">JavaScript</li>
             <li className="list-inside list-disc">TypeScript</li>
             <li className="list-inside list-disc">Python</li>
-            <li className="list-inside list-disc">Java</li>
             <li className="list-inside list-disc">TailwindCSS</li>
+            <li className="list-inside list-disc">Java</li>
             <li className="list-inside list-disc">PHP</li>
             <li className="list-inside list-disc">C</li>
             <li className="list-inside list-disc">SQL</li>
@@ -56,10 +56,10 @@ const About = () => {
             <li className="list-inside list-disc">SCOPE</li>
             <li className="list-inside list-disc">Cosmos</li>
             <li className="list-inside list-disc">Prisma</li>
-            <li className="list-inside list-disc">PlanetScale</li>
             <li className="list-inside list-disc">Pandas</li>
-            <li className="list-inside list-disc">PHPMyAdmin</li>
+            <li className="list-inside list-disc">PlanetScale</li>
             <li className="list-inside list-disc">Sklearn</li>
+            <li className="list-inside list-disc">PHPMyAdmin</li>
           </ul>
         </div>
       </div>
