@@ -8,7 +8,7 @@ const About = () => {
         id="about"
         className="min-h-screen text-center pt-40 pb-20 mx-auto bg-blend-color max-w-screen-lg"
       >
-        <div className="mx-auto text-left max-w-sm md:max-w-3xl lg:max-w-3xl xl:max-w-3xl">
+        <div className="mx-auto text-left max-w-xs sm:max-w-sm md:max-w-xl lg:max-w-3xl xl:max-w-3xl">
           <div className="text-left text-3xl font-semibold mb-2">About</div>
           <div className="mb-6 text-2xl text-left">
             Greetings! My name is Adrian Hossen and I am a third year computer
