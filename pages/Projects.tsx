@@ -12,7 +12,7 @@ const Projects = () => {
         <div className="mx-auto text-xl text-left max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full">
           <div className="mb-8 text-3xl text-left font-bold">Projects</div>
         </div>
-        <ul className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full">
+        <ul className="mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full">
           <li className="outline bg-backgroundcolor p-7 transition-transform hover:-translate-y-2 rounded-xl h-full flex flex-col">
             <div className="flex flex-col h-full">
               <div className="mb-1 text-2xl font-bold">Personal Portfolio</div>
