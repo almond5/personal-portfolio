@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaEnvelope, FaGithub, FaLinkedin, FaNewspaper } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaFileAlt  } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
         </button>
         <button className='px-4'>
           <Link href='resume.pdf'>
-            <FaNewspaper className="text-3xl" />
+            <FaFileAlt className="text-3xl" />
           </Link>
         </button>
       </div>
