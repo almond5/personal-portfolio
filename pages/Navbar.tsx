@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <div className="max-w-screen-lg relative z-10">
       <div className={`${mobileSidebar ? 'md:hidden' : 'hidden md:hidden'}`}>
-       <div className="z-20 transition-all ease-in-out">
+        <div className="z-20 transition-all ease-in-out">
           <div className="z-20 fixed h-full w-full bg-black bg-opacity-25 backdrop-blur">
             <div className="z-20 fixed h-full w-8/12 bg-backgroundcolor backdrop-blur flex flex-col">
               <div className="flex items-center justify-end pt-8 pr-8">
@@ -48,7 +48,7 @@ const Navbar = () => {
               </div>
               <div className="flex flex-1 justify-center">
                 <ul className="pt-16 flex flex-col text-left">
-                  <li className="px-4 font-semibold text-3xl">
+                  <li className="px-4 font-semibold text-3xl py-4">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -59,7 +59,7 @@ const Navbar = () => {
                       About
                     </button>
                   </li>
-                  <li className="px-4 font-semibold text-3xl py-8">
+                  <li className="px-4 font-semibold text-3xl  py-4">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -71,7 +71,7 @@ const Navbar = () => {
                       Experience
                     </button>
                   </li>
-                  <li className="px-4 font-semibold text-3xl">
+                  <li className="px-4 font-semibold text-3xl  py-4">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -83,7 +83,7 @@ const Navbar = () => {
                       Projects
                     </button>
                   </li>
-                  <li className="px-4 font-semibold text-3xl">
+                  <li className="px-4 font-semibold text-3xl  py-4">
                     <button
                       onClick={(e) => {
                         e.preventDefault();
@@ -95,7 +95,7 @@ const Navbar = () => {
                       Calculator
                     </button>
                   </li>
-                  <li className="px-4 font-semibold text-3xl py-8">
+                  <li className="px-4 font-semibold text-3xl py-4">
                     <Link href="/resume.pdf">Resume</Link>
                   </li>
                 </ul>
@@ -145,7 +145,7 @@ const Navbar = () => {
               </li>
               <li className="px-4 font-bold text-2xl">
                 <button onClick={() => router.push('/Calculator')}>
-                Calculator
+                  Calculator
                 </button>
               </li>
               <li className="px-4 font-bold text-2xl">
