@@ -17,7 +17,6 @@ const Calculator = () => {
   const handleSubmit = (event: { preventDefault: () => void; }) => {
     event.preventDefault();
 
-    // Perform grade calculation here
     const totalPercentage = 100;
     const quizzesGraded =
       ((parseFloat(quiz1) +
