@@ -71,7 +71,7 @@ const Calculator = () => {
       <form onSubmit={handleSubmit} className="pb-8">
       <div className="pb-2 text-xl font-bold">
         Note: Quiz 5 is currently calculated using{' '}
-        {formula ? '"Points earned / 8 * 6.5%"' : '"Points earned * 1 %"'}
+        {!formula ? '"Points earned / 8 * 6.5%"' : '"Points earned * 1 %"'}
       </div>
       <div className="pb-5">
         {' '}
@@ -82,7 +82,7 @@ const Calculator = () => {
           className="submit flex mx-auto bg-gray-400 pl-12 pr-12 text-white font-bold py-2 px-4 rounded text-2xl"
         >
           Switch Quiz 5 formula to{' '}
-          {formula ? '"Points earned * 1 %"' : '"Points earned / 8 * 6.5%"'}
+          {!formula ? '"Points earned * 1 %"' : '"Points earned / 8 * 6.5%"'}
         </button>
       </div>
         <div className="mx-auto max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
