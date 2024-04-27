@@ -19,7 +19,6 @@ const Calculator = () => {
   const handleSubmit = (event: { preventDefault: () => void }) => {
     event.preventDefault();
 
-    const totalPercentage = 100;
     const quizzesGraded =
       ((parseFloat(quiz1) +
         parseFloat(quiz2) +
@@ -28,34 +27,26 @@ const Calculator = () => {
         parseFloat(quiz6)) /
         20) *
       12.5;
-    const midterm1Graded = parseFloat(midterm1) * 1.9;
-    const midterm2Graded = parseFloat(midterm2) * 1.9;
-    const finalGraded = (parseFloat(finalExam) / 22) * 24;
+    const midterm1And2Graded = (parseFloat(midterm1) + parseFloat(midterm2)) * 1.9;
+    const finalGraded = (parseFloat(finalExam)) * 1.08333;
     const hwGraded = parseFloat(hw) * 0.1;
     const recitationGraded = parseFloat(recitation) * 0.12;
     const assessmentGraded = parseFloat(assessment);
 
     let quiz5Graded;
 
-    if (!formula) {
-      quiz5Graded = (parseFloat(quiz5) / 8) * 6.5;
-    } else {
-      quiz5Graded = parseFloat(quiz5) * 1;
-    }
+    quiz5Graded = parseFloat(quiz5) * 1;
 
     const total =
       (quizzesGraded +
         quiz5Graded +
-        midterm1Graded +
-        midterm2Graded +
+        midterm1And2Graded +
         hwGraded +
         recitationGraded +
         finalGraded +
-        assessmentGraded) /
-      totalPercentage;
-    const calculatedGrade = total * 100;
-
-    setCurrentGrade(calculatedGrade.toFixed(2));
+        assessmentGraded + 1)
+        
+    setCurrentGrade(total.toFixed(4));
   };
 
   return (
@@ -69,22 +60,6 @@ const Calculator = () => {
      
 
       <form onSubmit={handleSubmit} className="pb-8">
-      <div className="pb-2 text-xl font-bold">
-        Note: Quiz 5 is currently calculated using{' '}
-        {!formula ? '"Points earned / 8 * 6.5%"' : '"Points earned * 1 %"'}
-      </div>
-      <div className="pb-5">
-        {' '}
-        <button
-          onClick={() => {
-            setFormula(!formula);
-          }}
-          className="submit flex mx-auto bg-gray-400 pl-12 pr-12 text-white font-bold py-2 px-4 rounded text-2xl"
-        >
-          Switch Quiz 5 formula to{' '}
-          {!formula ? '"Points earned * 1 %"' : '"Points earned / 8 * 6.5%"'}
-        </button>
-      </div>
         <div className="mx-auto max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-full xl:max-w-full grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10">
           <div className="bg-backgroundcolor p-5 transition-transform hover:-translate-y-2 rounded-xl flex flex-col h-full">
             <div className="flex flex-col h-full">
@@ -265,7 +240,7 @@ const Calculator = () => {
           <div className="bg-backgroundcolor p-5 transition-transform hover:-translate-y-2 rounded-xl flex flex-col h-full">
             <div className="flex flex-col h-full">
               <label htmlFor="quiz1" className="mb-1 text-2xl font-bold">
-                Final Exam Grade <div>(out of 22)</div>
+                Final Exam Grade <div>(out of 24)</div>
               </label>
               <input
                 type="number"
