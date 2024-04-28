@@ -28,14 +28,11 @@ const Calculator = () => {
         20) *
       12.5;
     const midterm1And2Graded = (parseFloat(midterm1) + parseFloat(midterm2)) * 1.9;
-    const finalGraded = (parseFloat(finalExam)) * 1.08333;
+    const finalGraded = (parseFloat(finalExam)) * 1.083333;
     const hwGraded = parseFloat(hw) * 0.1;
     const recitationGraded = parseFloat(recitation) * 0.12;
     const assessmentGraded = parseFloat(assessment);
-
-    let quiz5Graded;
-
-    quiz5Graded = parseFloat(quiz5) * 1;
+    const quiz5Graded = parseFloat(quiz5);
 
     const total =
       (quizzesGraded +
