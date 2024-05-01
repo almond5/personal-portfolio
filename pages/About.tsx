@@ -35,6 +35,8 @@ const About = () => {
             <li className="list-inside list-disc">C#</li>
             <li className="list-inside list-disc">GitHub</li>
             <li className="list-inside list-disc">React.js</li>
+            <li className="list-inside list-disc">React Native</li>
+            <li className="list-inside list-disc">Expo</li>
             <li className="list-inside list-disc">Azure DevOps</li>
             <li className="list-inside list-disc">Next.js</li>
             <li className="list-inside list-disc">Digital Ocean</li>

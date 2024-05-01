@@ -83,18 +83,6 @@ const Navbar = () => {
                       Projects
                     </button>
                   </li>
-                  <li className="px-4 font-semibold text-3xl  py-4">
-                    <button
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setMobileSideBar(!mobileSidebar);
-                        router.push('/Calculator');
-                      }}
-                    >
-                      {' '}
-                      Calculator
-                    </button>
-                  </li>
                   <li className="px-4 font-semibold text-3xl py-4">
                     <Link href="/resume.pdf">Resume</Link>
                   </li>
@@ -141,11 +129,6 @@ const Navbar = () => {
               <li className="px-4 font-bold text-2xl">
                 <button onClick={() => router.push('/Projects')}>
                   Projects
-                </button>
-              </li>
-              <li className="px-4 font-bold text-2xl">
-                <button onClick={() => router.push('/Calculator')}>
-                  Calculator
                 </button>
               </li>
               <li className="px-4 font-bold text-2xl">
